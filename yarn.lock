@@ -108,6 +108,25 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
   integrity sha512-XYmBiy+ohOR4Lh5jE379fV2IU+6Jn4g5qASinhitfyO71b/sCo6MKsMLF5tc7Zf2CE8hViVQyYSobJNke8OvUw==
 
+"@types/prop-types@*":
+  version "15.7.3"
+  resolved "https://registry.nlark.com/@types/prop-types/download/@types/prop-types-15.7.3.tgz#2ab0d5da2e5815f94b0b9d4b95d1e5f243ab2ca7"
+  integrity sha1-KrDV2i5YFflLC51LldHl8kOrLKc=
+
+"@types/react@^17.0.9":
+  version "17.0.9"
+  resolved "https://registry.nlark.com/@types/react/download/@types/react-17.0.9.tgz?cache=0&sync_timestamp=1622599401818&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Freact%2Fdownload%2F%40types%2Freact-17.0.9.tgz#1147fb520024a62c9b3841f5cb4db89b73ddb87f"
+  integrity sha1-EUf7UgAkpiybOEH1y024m3PduH8=
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/scheduler@*":
+  version "0.16.1"
+  resolved "https://registry.nlark.com/@types/scheduler/download/@types/scheduler-0.16.1.tgz?cache=0&sync_timestamp=1621242658440&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Fscheduler%2Fdownload%2F%40types%2Fscheduler-0.16.1.tgz#18845205e86ff0038517aab7a18a62a6b9f71275"
+  integrity sha1-GIRSBehv8AOFF6q3oYpiprn3EnU=
+
 anser@1.4.9:
   version "1.4.9"
   resolved "https://registry.yarnpkg.com/anser/-/anser-1.4.9.tgz#1f85423a5dcf8da4631a341665ff675b96845760"
@@ -513,6 +532,11 @@ cssnano-simple@1.2.2:
   dependencies:
     cssnano-preset-simple "1.2.2"
     postcss "^7.0.32"
+
+csstype@^3.0.2:
+  version "3.0.8"
+  resolved "https://registry.nlark.com/csstype/download/csstype-3.0.8.tgz?cache=0&sync_timestamp=1618818466657&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcsstype%2Fdownload%2Fcsstype-3.0.8.tgz#d2266a792729fb227cd216fb572f43728e1ad340"
+  integrity sha1-0iZqeScp+yJ80hb7Vy9Dco4a00A=
 
 data-uri-to-buffer@3.0.1:
   version "3.0.1"
@@ -1770,6 +1794,11 @@ type-fest@^0.7.1:
   version "0.7.1"
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-0.7.1.tgz#8dda65feaf03ed78f0a3f9678f1869147f7c5c48"
   integrity sha512-Ne2YiiGN8bmrmJJEuTWTLJR32nh/JdL1+PSicowtNb0WFpn59GK8/lfD61bVtzguz7b3PBt74nxpv/Pw5po5Rg==
+
+typescript@^4.3.2:
+  version "4.3.2"
+  resolved "https://registry.nlark.com/typescript/download/typescript-4.3.2.tgz#399ab18aac45802d6f2498de5054fcbbe716a805"
+  integrity sha1-OZqxiqxFgC1vJJjeUFT8u+cWqAU=
 
 unbox-primitive@^1.0.0:
   version "1.0.1"
